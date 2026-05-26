@@ -8,7 +8,7 @@ const education = [
     degree: 'Bachelor of Technology - Computer Science and Engineering',
     institution: 'Lovely Professional University',
     location: 'Punjab, India',
-    period: '2022 - Present',
+    period: '2022 - 2026',
     description: 'Currently pursuing my B.Tech degree with a focus on software development, data structures, and algorithms.'
   },
   {
