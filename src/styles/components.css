@@ -1,12 +1,17 @@
 
 @layer components {
   .section-heading {
-    @apply text-3xl md:text-4xl font-bold mb-10 text-center relative;
+    @apply text-3xl md:text-4xl font-bold mb-10 text-center relative pb-4;
   }
   
   .section-heading::after {
     content: '';
-    @apply absolute bottom-0 left-1/2 transform -translate-x-1/2 h-1 w-20 bg-portfolio-purple rounded-full mt-2;
+    @apply absolute bottom-0 left-1/2 transform -translate-x-1/2 h-1 w-20 bg-portfolio-purple rounded-full;
+    transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
+  }
+
+  .section-heading.active::after {
+    @apply w-20;
   }
   
   .btn-primary {
@@ -22,14 +27,19 @@
   }
   
   .timeline-item {
-    @apply relative pl-10 pb-10 border-l border-portfolio-blue;
+    @apply relative pl-10 pb-10 border-l border-portfolio-blue/40;
   }
   
   .timeline-dot {
-    @apply absolute -left-2.5 w-5 h-5 rounded-full bg-portfolio-purple;
+    @apply absolute -left-2.5 w-5 h-5 rounded-full bg-portfolio-purple transition-transform duration-300 hover:scale-125;
+    box-shadow: 0 0 10px rgba(139,92,246,0.5);
   }
   
   .glass-card {
     @apply bg-white/10 backdrop-filter backdrop-blur-lg border border-white/20 rounded-xl shadow-xl;
+  }
+
+  .skill-card {
+    @apply glass-card p-6 rounded-xl;
   }
 }

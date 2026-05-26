@@ -40,19 +40,19 @@ const projects: ProjectType[] = [
   },
   {
     id: 3,
-    title: 'E-Commerce Website',
-    description: 'A feature-rich online shopping platform offering a seamless browsing and purchasing experience for users across various product categories.',
-    image: 'ecom.png',
-    technologies: ['React', 'Redux', 'Node.js', 'Express', 'MongoDB', 'Stripe API'],
-    features: [
-      'Responsive product catalog with filtering',
-      'Shopping cart and wishlist functionality',
-      'Secure checkout process',
-      'Order tracking and history',
-      'Admin dashboard for inventory management'
+  title: 'VedaAI – AI Assessment Creator',
+  description: 'An AI-powered assessment generation platform designed for teachers to create structured and professional question papers instantly with smart automation and an intuitive user experience.',
+  image: 'vedaai.png',
+  technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Groq AI', 'OpenAI API'],
+  features: [
+    'AI-generated question papers in seconds',
+    'Custom exam creation with subject and difficulty selection',
+    'Responsive and user-friendly dashboard',
+    'Secure authentication and user management',
+    'Download and manage generated assessments easily'
     ],
-    githubLink: 'https://github.com/satyakumarch/ECommerce',
-    liveLink: 'https://ecommercesatya.netlify.app/'
+    githubLink: 'https://github.com/satyakumarch/VedaAI',
+    liveLink: 'https://veda-ai-cmsr.vercel.app/'
   },
   {
     id: 4,
@@ -74,7 +74,7 @@ const projects: ProjectType[] = [
   id: 5,
   title: 'Lautan Ram Devi School Website',
   description: 'A modern, responsive school website for Lautan Ram Devi School, designed to showcase academic excellence, school activities, admissions information, and student achievements with an intuitive and user-friendly interface for students, parents, and visitors.',
-  image: 'school.png',
+  image: 'lautan.png',
   technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
   features: [
     'Clean and user-friendly navigation menu with Home, About School, Academics, Admissions, Gallery, and Contact sections',
@@ -85,12 +85,13 @@ const projects: ProjectType[] = [
     'Gallery section highlighting school events, cultural programs, sports, and campus life',
     'Faculty and staff information display for better communication and transparency',
     'Integrated contact form and social media links for easy parent-school interaction'
-  ]
-}
-    githubLink: 'https://github.com/NepaSatyaTech/edu-haven-dash',
-    liveLink: 'https://lautandevi.vercel.app/#'
-  
-  
+  ],
+  githubLink: 'https://github.com/NepaSatyaTech/edu-haven-dash',
+  liveLink: 'https://lautandevi.vercel.app/#'
+  }
+];
+
+
 
 const ProjectsSection = () => {
   const [selectedProject, setSelectedProject] = useState<ProjectType | null>(null);
