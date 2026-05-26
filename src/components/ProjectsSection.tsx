@@ -17,8 +17,8 @@ const projects: ProjectType[] = [
     'Admin dashboard for managing users and advisories',
     'Automated weather alerts and 5-day forecast integration'
   ],
-  githubLink: 'https://github.com/NepaSatyaTech/agriassist-ecosystem',
-  liveLink: 'https://agricul.netlify.app/'
+  githubLink: 'https://github.com/satyakumarch/agriculture',
+  liveLink: 'https://croptechx.vercel.app/'
 },
 
   {
@@ -71,21 +71,24 @@ const projects: ProjectType[] = [
     liveLink: 'https://sjcss.netlify.app/' // Replace with your actual live site link
   },
   {
-    id: 5,
-    title: 'Footcap - Shoe E-commerce Website',
-    description: 'A modern, responsive e-commerce website for Footcap, showcasing their latest shoe collections with intuitive navigation and shopping features designed to enhance the customer experience and drive sales.',
-    image: 'soe.png',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
-    features: [
-      'Clean navigation menu with Home, About, Products, Shop, Blog, and Contact sections',
-      'Eye-catching hero section featuring the New Summer Shoes Collection',
-      'Product display with high-quality imagery on a minimalist white and blue background',
-      'Shopping cart and wishlist functionality with notification counters',
-      'Call-to-action "Shop Now" button to drive conversions',
-      'User account access for personalized shopping experience'
-    ],
-    githubLink: 'https://github.com/satyakumarch/Shoes',
-    liveLink: 'https://footcap.netlify.app/'
+  id: 5,
+  title: 'Lautan Ram Devi School Website',
+  description: 'A modern, responsive school website for Lautan Ram Devi School, designed to showcase academic excellence, school activities, admissions information, and student achievements with an intuitive and user-friendly interface for students, parents, and visitors.',
+  image: 'school.png',
+  technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
+  features: [
+    'Clean and user-friendly navigation menu with Home, About School, Academics, Admissions, Gallery, and Contact sections',
+    'Attractive hero section showcasing the school vision, quality education, and student achievements',
+    'Responsive design optimized for desktop, tablet, and mobile devices',
+    'Student and parent portal access with notices, announcements, and academic updates',
+    'Interactive admission section with clear “Apply Now” call-to-action button',
+    'Gallery section highlighting school events, cultural programs, sports, and campus life',
+    'Faculty and staff information display for better communication and transparency',
+    'Integrated contact form and social media links for easy parent-school interaction'
+  ]
+}
+    githubLink: 'https://github.com/NepaSatyaTech/edu-haven-dash',
+    liveLink: 'https://lautandevi.vercel.app/#'
   }
   
 ];
