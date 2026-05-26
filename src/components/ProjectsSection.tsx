@@ -17,8 +17,8 @@ const projects: ProjectType[] = [
     'Admin dashboard for managing users and advisories',
     'Automated weather alerts and 5-day forecast integration'
   ],
-  githubLink: 'https://github.com/satyakumarch/agriculture',
-  liveLink: 'https://croptechx.vercel.app/'
+  githubLink:'https://github.com/satyakumarch/agriculture',
+  liveLink:'https://croptechx.vercel.app/'
 },
 
   {
@@ -89,9 +89,8 @@ const projects: ProjectType[] = [
 }
     githubLink: 'https://github.com/NepaSatyaTech/edu-haven-dash',
     liveLink: 'https://lautandevi.vercel.app/#'
-  }
   
-];
+  
 
 const ProjectsSection = () => {
   const [selectedProject, setSelectedProject] = useState<ProjectType | null>(null);
