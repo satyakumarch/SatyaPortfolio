@@ -91,7 +91,7 @@ const HeroSection = () => {
                 <Mail size={24} className="animate-float animate-delay-500" />
               </a>
               <a
-                href="tel:+918934856824"
+                href="tel:+918934856824,9779807578809"
                 className="text-gray-300 hover:text-white transition-colors hover:scale-110"
                 aria-label="Phone"
               >
